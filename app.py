@@ -647,7 +647,6 @@ async def collect_chapter(context, url, chapter_dir, job, chapter_number):
 async def run_browser_job(job, website, manga, first, last, work_dir):
     async with async_playwright() as playwright:
         browser = await playwright.chromium.launch(
-            channel="msedge",
             headless=True
         )
 
