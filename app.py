@@ -241,10 +241,43 @@ footer {
     <div id="percent">0%</div>
 
     <div class="stats">
-        <div class="stat"><strong id="completed">0</strong><span>Chapters done</span></div>
-        <div class="stat"><strong id="total">0</strong><span>Total chapters</span></div>
-        <div class="stat"><strong id="images">0</strong><span>Images found</span></div>
+    <div class="stat">
+        <strong id="completed">0</strong>
+        <span>Chapters processed</span>
     </div>
+    <div class="stat">
+        <strong id="total">0</strong>
+        <span>Total chapters</span>
+    </div>
+    <div class="stat">
+        <strong id="images">0</strong>
+        <span>Images downloaded</span>
+    </div>
+    <div class="stat">
+        <strong id="pages">0</strong>
+        <span>PDF pages</span>
+    </div>
+    <div class="stat">
+        <strong id="failed">0</strong>
+        <span>Failed chapters</span>
+    </div>
+    <div class="stat">
+        <strong id="bytes">0 B</strong>
+        <span>Downloaded data</span>
+    </div>
+    <div class="stat">
+        <strong id="elapsed">0s</strong>
+        <span>Elapsed time</span>
+    </div>
+    <div class="stat">
+        <strong id="eta">—</strong>
+        <span>Estimated remaining</span>
+    </div>
+    <div class="stat">
+        <strong id="current">—</strong>
+        <span>Current chapter</span>
+    </div>
+</div>
 
     <a id="downloadLink" class="download hidden" href="#"
        download="PanelPress_PDFs.zip">⬇ Download ZIP again</a>
